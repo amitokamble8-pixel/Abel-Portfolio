@@ -20,7 +20,7 @@ export const PROFILE = {
     scholar: "",
     linkedin: "https://www.linkedin.com/in/abel-george-mathew/",
     codeforces: "",
-    fide: "",
+    youtube: "https://www.youtube.com/live/YmbOZL1HZ2E?si=epAW1Ky9cNEuT-sB",
     imo: "https://www.imo-official.org/results/contestant/35510/",
     wespa: "https://wespa.xerafin.net/player.html?id=37382",
     twitter: "",
@@ -393,5 +393,6 @@ export const FOOTER_NAV = [
 export const FOOTER_PROFILES = [
   { label: "IMO Official", href: PROFILE.socials.imo },
   { label: "WESPA Official", href: PROFILE.socials.wespa },
+  { label: "YouTube Video", href: PROFILE.socials.youtube },
    
 ];
